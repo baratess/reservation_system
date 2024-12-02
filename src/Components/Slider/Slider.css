@@ -1,0 +1,131 @@
+﻿.slider {
+    position: relative;
+    overflow: hidden; 
+  }
+  
+  .slider-item {
+    position: relative;
+    height: 736px;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+  }
+  
+  .slider-item .slider-image img {
+    width: 100%; 
+    height: auto; 
+    object-fit: cover; 
+    object-position: center; 
+  }
+
+  .slider-item .container {
+    position: absolute;
+    padding: 10px; 
+    text-align: center; 
+    color: white; 
+    height: 200px;
+  }
+
+  .slider-item .container .slider-heading {
+    font-size: 35px; 
+    margin-left: 170px;
+    color: rgb(253, 251, 251);
+  }
+
+  .slider-item .container h2{
+    margin-top: 50px;
+  }
+
+  .slider-item .container .slider-button{
+    color: rgb(253, 251, 251);
+    background-color: transparent;
+    margin-left: 120px;
+    margin-top: 10px;
+    font-size: 32px;
+  }
+
+  .slider-item .container button{
+    display: flex;
+    font-size: 11px;
+    color: #ffdd00;
+    text-decoration: none;
+    border: none;
+    border-radius: 10px;
+    background-color: antiquewhite;
+  }
+
+  .slider-item .container button:hover{
+    font-size: 40px;
+    background-color: rgb(47, 172, 109);
+    text-decoration: none;
+    border: none;
+  }
+  
+  .slider-buttons {
+    position: absolute;
+    top: 50%; 
+    left: 0; 
+    right: 0; 
+    display: flex;
+    justify-content: space-between; 
+    padding: 0 20px; 
+    z-index: 2; 
+  }
+  
+  .slider-buttons button {
+    width: 40px; 
+    height: 40px; 
+    border-radius: 50%; 
+    border: 1px solid #dee0ea;
+    background-color: white;
+    opacity: 0.7; 
+    transition: 0.2s ease all;
+    z-index: 3; 
+  }
+  
+  .slider-buttons button:hover {
+    background-color: #c96032;
+    opacity: 1;
+    color: #fff;
+    border-color: #c96032;
+  }
+  
+  .slider-buttons button i {
+    font-size: 20px; 
+  }
+  
+  .slider .slider-dots {
+    position: absolute;
+    bottom: 20px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 6px; 
+  }
+  
+  .slider .slider-dots .slider-dot {
+    border: none; 
+    display: flex;
+    opacity: 1;
+    background: transparent; 
+  }
+  
+  .slider .slider-dots .slider-dot span {
+    display: inline-block;
+    width: 12px; 
+    height: 12px; 
+    background-color: #c96032; 
+    border-radius: 50%; 
+    margin: 0; 
+    box-shadow: none; 
+  }
+  .slider .slider-dots .slider-dot.active span {
+    background-color: #ffdd00; 
+  }
+  
+  .slider .slider-dots .slider-dot.active {
+    opacity: 1;
+  }
+  

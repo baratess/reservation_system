@@ -1,0 +1,92 @@
+﻿.home {
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .home .header {
+    background-color: white;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .home .header-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .home .header-content .brand img {
+    display: flex;
+    align-items: center;
+    height: 65px;
+    width: 70%;
+    margin-left: 45px;
+  }
+  
+  .home .header .header-content .icon {
+    color: rgb(85, 41, 228);
+    position: absolute;
+    right: 80px;
+    font-size: 20px;
+  }
+  
+  .home .header .header-content .profile {
+    color: rgb(142, 158, 192);
+    position: absolute;
+    right: 350px;
+    font-size: 20px;
+  }
+  
+  .header-content button{
+    border: none;
+    background-color: white;
+  }
+  
+  .logout-button {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+  }
+  
+  .header-content .name {
+    position: relative;
+    left: 1000px;
+  }
+  
+  .header-content .about{
+    position: relative;
+    left: 250px;
+    font-size: 18px;
+    cursor: pointer;
+  }
+  
+  .header-content .regulation{
+    position: relative;
+    left: 150px;
+    font-size: 18px;
+    cursor: pointer;
+  }
+  
+  .header-content .communication{
+    position: relative;
+    left: 50px;
+    font-size: 18px;
+    cursor: pointer;
+  }
+
+  .communication .h3{
+    text-decoration-line: none;
+    font-size: 15px;
+  }
+
+  .regulation .h3{
+    text-decoration-line: none;
+    font-size: 15px;
+  }
+
+  .about .h3{
+    text-decoration-line: none;
+    font-size: 15px;
+  }
