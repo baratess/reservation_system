@@ -1,0 +1,112 @@
+﻿.contact{
+    background-image: url("https://yildiz.edu.tr/sites/default/files/2023-11/YTU_Davutpasa_Kampusu.jpg");
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center center
+}
+
+.contact .contact-bottom {
+    margin: 0px 400px;
+    height: 80vh;
+    font-family:'Times New Roman', Times, serif;
+  }
+  
+  .contact-bottom .contact-titles {
+    width: 75%;
+    margin-top: 30px;
+  }
+  
+  .contact-bottom .contact-titles h4 {
+    color: #e51414;
+    font-weight: 500;
+  }
+  
+  .contact-bottom .contact-titles h2 {
+    font-size: 40px;
+    font-weight: 600;
+    color: antiquewhite;
+  }
+
+  .contact-bottom .contact-elements {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    gap: 100px;
+  }
+  
+  .contact-bottom .contact-form {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    color: antiquewhite;
+  }
+  
+  .contact-bottom .contact-form > div {
+    display: flex;
+    flex-direction: column;
+    flex-basis: calc(50% - 10px);
+    font-size: 20px;
+    row-gap: 4px;
+  }
+  
+  .contact-bottom .contact-form input {
+    height: 30px;
+    text-decoration: none;
+    border-color: #72e32c;
+  }
+
+  .contact-bottom .contact-form input:hover{
+    border-color: antiquewhite;
+  }
+
+  .contact-bottom .contact-form .message textarea {
+    height: 200px;
+    resize: none;
+    border-color: #72e32c;
+    font-size: 20px;
+  }
+
+  .contact-bottom .contact-form .message textarea:hover{
+    border-color: antiquewhite;
+  }
+
+  .contact-bottom .contact-form > div label span {
+    color: #e51414;
+    margin-right: 20px;
+  }
+  
+  .contact-bottom .contact-form > div:nth-child(3),
+  .contact-bottom .contact-form > div:nth-child(4) {
+    flex-basis: 100%;
+  }
+  
+  .contact-bottom .contact-form .form-button {
+    background-color: rgb(213, 204, 24);
+    border-color: antiquewhite;
+    color: #fff;
+    padding: 15px 32px;
+  }
+  
+  .contact-bottom .contact-form .form-button:hover{
+    background-color: rgb(34, 130, 189);
+  }
+
+  /* responsive */
+  @media (max-width: 768px) {
+    .contact .contact-titles {
+      width: 100%;
+    }
+  
+    .contact-elements {
+      flex-direction: column;
+      gap: 50px !important;
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .contact-form {
+      flex-direction: column;
+    }
+  }
+  
